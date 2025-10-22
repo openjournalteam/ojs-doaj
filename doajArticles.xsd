@@ -148,16 +148,6 @@
         </xs:simpleContent>
     </xs:complexType>
    </xs:element>
-
-   <xs:element name="fullTextUrlpdf">
-    <xs:complexType>
-        <xs:simpleContent>
-            <xs:extension base="fullUrl">
-                <xs:attribute name="format" use="optional"/>
-            </xs:extension>
-        </xs:simpleContent>
-    </xs:complexType>
-   </xs:element>
  
    <xs:element name="keywords"
                minOccurs="0"  maxOccurs="unbounded">
